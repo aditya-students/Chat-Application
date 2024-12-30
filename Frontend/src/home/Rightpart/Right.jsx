@@ -12,7 +12,7 @@ function Right() {
     return setSelectedConversation(null);
   }, [setSelectedConversation]);
   return (
-    <div className="w-full bg-slate-900 text-gray-300">
+    <div className="w-full bg-blue-200 text-gray-900">
       <div>
         {!selectedConversation ? (
           <NoChatSelected />
@@ -62,3 +62,4 @@ const NoChatSelected = () => {
     </>
   );
 };
+
