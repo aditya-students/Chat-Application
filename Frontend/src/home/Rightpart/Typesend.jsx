@@ -15,14 +15,14 @@ function Typesend() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex space-x-1 h-[8vh]  bg-gray-800">
+      <div className="flex space-x-1 h-[8vh]  bg-gray-300">
         <div className=" w-[70%] mx-4">
           <input
             type="text"
             placeholder="Type here"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="border border-gray-700 rounded-xl outline-none mt-1 px-4 py-3 w-full"
+            className="border border-gray-700 rounded-xl outline-none mt-1 px-4 py-3 w-full text-white"
           />
         </div>
         <button>
@@ -34,3 +34,4 @@ function Typesend() {
 }
 
 export default Typesend;
+
